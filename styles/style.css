@@ -28,7 +28,7 @@ nav{
 }
 
 .secondary-bg{
-    background-color: #FFF8F3;
+    background-color: #f4dac8;
 }
 
 /* shared btn  */
@@ -146,4 +146,53 @@ main{
 .skill:hover{
     background-color: #c4bfbf;
     transition: .5s;
+}
+
+/* resume section */
+
+.resume-container{
+    display: flex;
+    gap: 25px;
+
+}
+.exprerience-discription{
+    font-size: 13px;
+    font-weight: normal;
+}
+.section-title{
+    text-align: center;
+}
+
+.download-button{
+    text-align: center;
+    margin-bottom: 50px;
+}
+/* footer start  */
+
+footer{
+    padding: 130px 190px;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    
+}
+.footer-colum{
+    width: 50%;
+}
+footer input[type="text"] , footer input[type="email"]{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    margin-bottom: 15px;
+    border: none;
+    width: 100%;
+    padding: 10px;
+}
+textarea{
+    width: 100%;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
 }
